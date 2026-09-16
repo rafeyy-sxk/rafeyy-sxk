@@ -1,128 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Abdul Rafey — AI Agent Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Abdul Rafey — AI Agent Engineer">
 <defs>
   <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%"   stop-color="#E6EDF3"/>
-    <stop offset="42%"  stop-color="#E6EDF3"/>
-    <stop offset="50%"  stop-color="#FF8A4C"/>
-    <stop offset="58%"  stop-color="#E6EDF3"/>
+    <stop offset="0%" stop-color="#E6EDF3"/><stop offset="40%" stop-color="#E6EDF3"/>
+    <stop offset="50%" stop-color="#FF8A4C"/><stop offset="60%" stop-color="#E6EDF3"/>
     <stop offset="100%" stop-color="#E6EDF3"/>
-    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 1 0; -1 0" dur="7s" repeatCount="indefinite"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
   </linearGradient>
   <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#FF6B35"/>
-    <stop offset="60%" stop-color="#FF6B35" stop-opacity="0.25"/>
+    <stop offset="0%" stop-color="#FF6B35"/><stop offset="55%" stop-color="#FF6B35" stop-opacity=".3"/>
     <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
   </linearGradient>
   <radialGradient id="halo" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.55"/>
-    <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#FF6B35" stop-opacity=".55"/><stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="bgglow" cx="78%" cy="38%" r="55%">
-    <stop offset="0%" stop-color="#6C5CE7" stop-opacity="0.13"/>
-    <stop offset="100%" stop-color="#6C5CE7" stop-opacity="0"/>
+  <radialGradient id="bg" cx="80%" cy="34%" r="58%">
+    <stop offset="0%" stop-color="#6C5CE7" stop-opacity=".14"/><stop offset="100%" stop-color="#6C5CE7" stop-opacity="0"/>
   </radialGradient>
-  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-    <path d="M30 0 L0 0 0 30" fill="none" stroke="#FFFFFF" stroke-opacity="0.030" stroke-width="1"/>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0 L0 0 0 32" fill="none" stroke="#FFF" stroke-opacity=".028" stroke-width="1"/>
   </pattern>
-  <clipPath id="typeclip">
-    <rect x="72" y="248" width="0" height="30">
-      <animate attributeName="width" values="0;330;330;0" keyTimes="0;0.45;0.9;1" dur="6s" repeatCount="indefinite"/>
-    </rect>
-  </clipPath>
+  <clipPath id="tc"><rect x="64" y="300" width="0" height="30">
+    <animate attributeName="width" values="0;340;340;0" keyTimes="0;.45;.9;1" dur="6.5s" repeatCount="indefinite"/></rect></clipPath>
   <style>
-    .name  { font: 700 70px "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing:-2px; }
-    .role  { font: 600 16px ui-monospace,"SF Mono",Menlo,Consolas,monospace; letter-spacing:6px; }
-    .mono  { font: 400 17px ui-monospace,"SF Mono",Menlo,Consolas,monospace; }
-    .stat  { font: 700 21px ui-monospace,"SF Mono",Menlo,Consolas,monospace; }
-    .lbl   { font: 500 10px ui-monospace,"SF Mono",Menlo,Consolas,monospace; letter-spacing:2px; }
-    .in    { opacity:0; animation: in .8s ease forwards }
-    .a1{animation-delay:.05s}.a2{animation-delay:.25s}.a3{animation-delay:.45s}
-    .a4{animation-delay:.65s}.a5{animation-delay:.85s}.a6{animation-delay:1.05s}
-    @keyframes in { to { opacity:1 } }
-    .draw { stroke-dasharray:560; stroke-dashoffset:560; animation: draw 1.6s .35s cubic-bezier(.2,.75,.25,1) forwards }
+    .mono { font: 400 17px ui-monospace,"SF Mono",Menlo,Consolas,monospace }
+    .stat { font: 700 20px ui-monospace,"SF Mono",Menlo,Consolas,monospace }
+    .lbl  { font: 500 9.5px ui-monospace,"SF Mono",Menlo,Consolas,monospace; letter-spacing:2px }
+    .in { opacity:0; animation: in .9s cubic-bezier(.2,.8,.3,1) forwards }
+    .a1{animation-delay:.05s}.a2{animation-delay:.35s}.a3{animation-delay:.6s}.a4{animation-delay:.85s}
+    @keyframes in { from { opacity:0; transform: translateY(10px) } to { opacity:1; transform:none } }
+    .draw { stroke-dasharray:700; stroke-dashoffset:700; animation: draw 1.8s .5s cubic-bezier(.2,.75,.25,1) forwards }
     @keyframes draw { to { stroke-dashoffset:0 } }
-    .blink { animation: blink 1.05s steps(1) infinite }
-    @keyframes blink { 50% { opacity:0 } }
+    .blink { animation: blink 1.05s steps(1) infinite } @keyframes blink { 50% { opacity:0 } }
   </style>
 </defs>
 
-<rect width="1200" height="420" fill="#0D1117"/>
-<rect width="1200" height="420" fill="url(#grid)"/>
-<rect width="1200" height="420" fill="url(#bgglow)"/>
+<rect width="1200" height="440" fill="#0D1117"/>
+<rect width="1200" height="440" fill="url(#grid)"/>
+<rect width="1200" height="440" fill="url(#bg)"/>
 
-<!-- agent swarm -->
-<g transform="translate(830,60)">
-  <g stroke="#FF6B35" stroke-opacity="0.22" stroke-width="1" fill="none">
-    <path id="e1" d="M150 120 L 60 40"/>
-    <path id="e2" d="M150 120 L 250 46"/>
-    <path id="e3" d="M150 120 L 40 190"/>
-    <path id="e4" d="M150 120 L 262 186"/>
-    <path id="e5" d="M150 120 L 150 236"/>
-    <path id="e6" d="M60 40 L 250 46"/>
-    <path id="e7" d="M40 190 L 150 236"/>
-    <path id="e8" d="M262 186 L 150 236"/>
+<g transform="translate(852,54)">
+  <g stroke="#FF6B35" stroke-opacity=".2" stroke-width="1" fill="none">
+    <path id="e1" d="M150 118 L 58 38"/><path id="e2" d="M150 118 L 252 44"/>
+    <path id="e3" d="M150 118 L 36 188"/><path id="e4" d="M150 118 L 264 184"/>
+    <path id="e5" d="M150 118 L 150 240"/><path id="e6" d="M58 38 L 252 44"/>
+    <path id="e7" d="M36 188 L 150 240"/><path id="e8" d="M264 184 L 150 240"/>
   </g>
-
-  <circle cx="150" cy="120" r="34" fill="url(#halo)"/>
-  <circle cx="150" cy="120" r="9" fill="#FF6B35">
-    <animate attributeName="r" values="9;11.5;9" dur="2.6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="150" cy="120" r="9" fill="none" stroke="#FF6B35" stroke-width="1.5">
-    <animate attributeName="r" values="9;30" dur="2.6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0" dur="2.6s" repeatCount="indefinite"/>
-  </circle>
-
+  <circle cx="150" cy="118" r="36" fill="url(#halo)"/>
+  <circle cx="150" cy="118" r="9" fill="#FF6B35"><animate attributeName="r" values="9;11.5;9" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="150" cy="118" r="9" fill="none" stroke="#FF6B35" stroke-width="1.5">
+    <animate attributeName="r" values="9;32" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".7;0" dur="2.6s" repeatCount="indefinite"/></circle>
   <g fill="#8B949E">
-    <circle cx="60"  cy="40"  r="4.5"><animate attributeName="fill" values="#8B949E;#FF8A4C;#8B949E" dur="3.1s" repeatCount="indefinite"/></circle>
-    <circle cx="250" cy="46"  r="4.5"><animate attributeName="fill" values="#8B949E;#FF8A4C;#8B949E" dur="3.7s" begin="0.6s" repeatCount="indefinite"/></circle>
-    <circle cx="40"  cy="190" r="4.5"><animate attributeName="fill" values="#8B949E;#FF8A4C;#8B949E" dur="3.3s" begin="1.1s" repeatCount="indefinite"/></circle>
-    <circle cx="262" cy="186" r="4.5"><animate attributeName="fill" values="#8B949E;#FF8A4C;#8B949E" dur="4.1s" begin="0.3s" repeatCount="indefinite"/></circle>
-    <circle cx="150" cy="236" r="4.5"><animate attributeName="fill" values="#8B949E;#FF8A4C;#8B949E" dur="2.9s" begin="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="58" cy="38" r="4.5"><animate attributeName="fill" values="#8B949E;#FF8A4C;#8B949E" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="252" cy="44" r="4.5"><animate attributeName="fill" values="#8B949E;#FF8A4C;#8B949E" dur="3.7s" begin=".6s" repeatCount="indefinite"/></circle>
+    <circle cx="36" cy="188" r="4.5"><animate attributeName="fill" values="#8B949E;#FF8A4C;#8B949E" dur="3.3s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="264" cy="184" r="4.5"><animate attributeName="fill" values="#8B949E;#FF8A4C;#8B949E" dur="4.1s" begin=".3s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="240" r="4.5"><animate attributeName="fill" values="#8B949E;#FF8A4C;#8B949E" dur="2.9s" begin="1.6s" repeatCount="indefinite"/></circle>
   </g>
-
   <g fill="#FFB38A">
     <circle r="2.6"><animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle>
-    <circle r="2.6"><animateMotion dur="2.6s" begin="0.4s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
-    <circle r="2.6"><animateMotion dur="2.9s" begin="0.9s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
+    <circle r="2.6"><animateMotion dur="2.6s" begin=".4s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
+    <circle r="2.6"><animateMotion dur="2.9s" begin=".9s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
     <circle r="2.6"><animateMotion dur="2.4s" begin="1.3s" repeatCount="indefinite"><mpath href="#e4"/></animateMotion></circle>
-    <circle r="2.6"><animateMotion dur="3.1s" begin="0.2s" repeatCount="indefinite"><mpath href="#e5"/></animateMotion></circle>
+    <circle r="2.6"><animateMotion dur="3.1s" begin=".2s" repeatCount="indefinite"><mpath href="#e5"/></animateMotion></circle>
     <circle r="2.2"><animateMotion dur="3.4s" begin="1.8s" repeatCount="indefinite"><mpath href="#e6"/></animateMotion></circle>
-    <circle r="2.2"><animateMotion dur="3.6s" begin="0.7s" repeatCount="indefinite"><mpath href="#e7"/></animateMotion></circle>
+    <circle r="2.2"><animateMotion dur="3.6s" begin=".7s" repeatCount="indefinite"><mpath href="#e7"/></animateMotion></circle>
     <circle r="2.2"><animateMotion dur="3.2s" begin="2.1s" repeatCount="indefinite"><mpath href="#e8"/></animateMotion></circle>
   </g>
 </g>
 
-<text x="72" y="140" class="name in a1" fill="url(#sweep)">Abdul Rafey</text>
-<line x1="72" y1="172" x2="632" y2="172" class="draw" stroke="url(#rule)" stroke-width="2"/>
-<text x="72" y="210" class="role in a2" fill="#FF6B35">AI AGENT ENGINEER</text>
+<g class="in a1" transform="translate(64,168)"><path d="M32.686 -67.024 26.668 -31.27H38.94L32.922 -67.024ZM46.61 -84.252 67.142 0.0H43.778L41.536 -14.75H24.072L21.83 0.0H-1.18L18.997999999999998 -84.252Z M94.95599999999999 -15.812V-36.344H101.09199999999998Q104.16 -36.344 106.52 -33.748Q108.88 -31.151999999999997 108.88 -26.195999999999998Q108.88 -20.886 106.52 -18.349Q104.16 -15.812 101.09199999999998 -15.812ZM94.95599999999999 -51.211999999999996V-68.44H100.26599999999999Q103.68799999999999 -68.44 105.45799999999998 -65.844Q107.22799999999998 -63.248 107.22799999999998 -59.708Q107.22799999999998 -56.285999999999994 105.45799999999998 -53.748999999999995Q103.68799999999999 -51.211999999999996 100.26599999999999 -51.211999999999996ZM73.008 -84.252V0.0H106.166Q113.00999999999999 0.0 117.84799999999998 -1.829Q122.68599999999998 -3.658 125.69499999999998 -6.962Q128.70399999999998 -10.266 130.12 -14.867999999999999Q131.536 -19.47 131.536 -24.898Q131.536 -28.201999999999998 130.651 -31.447Q129.766 -34.692 127.87799999999999 -37.406Q125.98999999999998 -40.12 123.03999999999999 -41.949Q120.08999999999999 -43.778 115.95999999999998 -44.132V-44.367999999999995Q119.49999999999999 -45.076 121.97799999999998 -46.846000000000004Q124.45599999999999 -48.616 126.04899999999999 -51.153Q127.642 -53.69 128.409 -56.81699999999999Q129.176 -59.943999999999996 129.176 -63.248Q129.176 -72.806 123.57099999999998 -78.529Q117.96599999999998 -84.252 106.166 -84.252Z M141.53199999999998 -84.252V0.0H173.39199999999997Q182.95 0.0 188.26 -3.481Q193.56999999999996 -6.962 196.22499999999997 -12.802999999999999Q198.87999999999997 -18.644 199.46999999999997 -26.255Q200.05999999999997 -33.866 200.05999999999997 -42.126Q200.05999999999997 -50.385999999999996 199.46999999999997 -57.99699999999999Q198.87999999999997 -65.60799999999999 196.22499999999997 -71.44899999999998Q193.56999999999996 -77.28999999999999 188.26 -80.77099999999999Q182.95 -84.252 173.39199999999997 -84.252ZM163.47999999999996 -15.812V-68.44H167.84599999999998Q171.03199999999998 -68.44 172.91999999999996 -67.555Q174.80799999999996 -66.67 175.81099999999998 -63.838Q176.81399999999996 -61.006 177.10899999999998 -55.814Q177.40399999999997 -50.622 177.40399999999997 -42.126Q177.40399999999997 -33.629999999999995 177.10899999999998 -28.437999999999995Q176.81399999999996 -23.246 175.81099999999998 -20.414Q174.80799999999996 -17.582 172.91999999999996 -16.697Q171.03199999999998 -15.812 167.84599999999998 -15.812Z M231.76799999999997 -84.252H209.81999999999996V-29.028Q209.81999999999996 -20.177999999999997 211.70799999999997 -14.277999999999999Q213.59599999999998 -8.378 217.195 -4.838Q220.79399999999998 -1.298 226.16299999999998 0.0Q231.53199999999998 1.298 238.37599999999998 1.298Q245.33799999999997 1.298 250.64799999999997 0.0Q255.95799999999997 -1.298 259.55699999999996 -4.838Q263.15599999999995 -8.378 265.044 -14.277999999999999Q266.93199999999996 -20.177999999999997 266.93199999999996 -29.028V-84.252H244.98399999999998V-23.482Q244.98399999999998 -17.346 243.21399999999997 -15.280999999999999Q241.44399999999996 -13.216 238.37599999999998 -13.216Q235.30799999999996 -13.216 233.53799999999995 -15.280999999999999Q231.76799999999997 -17.346 231.76799999999997 -23.482Z M277.87199999999996 -84.252V0.0H326.8419999999999V-17.936H299.81999999999994V-84.252Z M388.13399999999996 -48.616V-68.44H392.38199999999995Q397.33799999999997 -68.44 399.52099999999996 -66.198Q401.70399999999995 -63.955999999999996 401.70399999999995 -58.645999999999994Q401.70399999999995 -54.162 399.462 -51.388999999999996Q397.21999999999997 -48.616 392.49999999999994 -48.616ZM366.186 -84.252V0.0H388.13399999999996V-33.748H393.91599999999994Q395.92199999999997 -33.748 397.279 -33.217Q398.63599999999997 -32.686 399.52099999999996 -31.329Q400.40599999999995 -29.971999999999998 400.76 -27.612Q401.114 -25.252 401.114 -21.712V-16.048Q401.114 -14.75 401.173 -12.684999999999999Q401.23199999999997 -10.62 401.409 -8.378Q401.58599999999996 -6.135999999999999 401.99899999999997 -3.8939999999999997Q402.412 -1.652 403.23799999999994 0.0H426.602V-1.18Q425.53999999999996 -1.77 425.068 -2.4189999999999996Q424.59599999999995 -3.0679999999999996 424.12399999999997 -3.776Q423.77 -4.484 423.534 -5.782Q423.29799999999994 -7.08 423.17999999999995 -8.673Q423.06199999999995 -10.266 423.06199999999995 -12.036Q423.06199999999995 -13.806 423.06199999999995 -15.457999999999998V-22.656Q423.06199999999995 -31.151999999999997 420.11199999999997 -35.989999999999995Q417.162 -40.827999999999996 409.256 -41.536V-41.772Q416.808 -42.952 420.23 -48.144Q423.652 -53.336 423.652 -61.831999999999994Q423.652 -66.67 422.413 -70.8Q421.174 -74.92999999999999 418.40099999999995 -77.939Q415.628 -80.948 411.203 -82.6Q406.77799999999996 -84.252 400.524 -84.252Z M462.912 -67.024 456.894 -31.27H469.166L463.148 -67.024ZM476.836 -84.252 497.368 0.0H474.004L471.762 -14.75H454.298L452.056 0.0H429.046L449.224 -84.252Z M502.526 -84.252V0.0H524.474V-34.692H550.67V-51.919999999999995H524.474V-66.316H552.44V-84.252Z M560.784 -84.252V0.0H611.76V-17.936H582.732V-34.692H608.928V-51.919999999999995H582.732V-66.316H610.698V-84.252Z M635.798 -33.158V0.0H657.746V-33.158L679.222 -84.252H655.15L646.89 -54.87H646.654L638.394 -84.252H614.6759999999999Z" fill="url(#sweep)"/></g>
+<line x1="64" y1="204" x2="764" y2="204" class="draw" stroke="url(#rule)" stroke-width="2.5"/>
+<g class="in a2" transform="translate(66,252)"><path d="M10.44 -8.07 8.37 -17.7H8.31L6.24 -8.07ZM11.01 -21.419999999999998 16.68 0.0H12.18L11.19 -4.53H5.49L4.5 0.0H0.0L5.67 -21.419999999999998Z M25.39 0.0H29.71V-21.419999999999998H25.39Z M63.06 -8.07 60.99 -17.7H60.93000000000001L58.86000000000001 -8.07ZM63.63 -21.419999999999998 69.30000000000001 0.0H64.80000000000001L63.81 -4.53H58.11000000000001L57.120000000000005 0.0H52.620000000000005L58.290000000000006 -21.419999999999998Z M87.31000000000002 -15.059999999999999H91.45000000000002Q91.45000000000002 -18.33 89.89000000000001 -20.085Q88.33000000000001 -21.84 84.79 -21.84Q82.72000000000001 -21.84 81.34 -21.15Q79.96000000000001 -20.46 79.12 -19.095Q78.28000000000002 -17.73 77.93500000000002 -15.690000000000001Q77.59000000000002 -13.65 77.59000000000002 -10.95Q77.59000000000002 -8.16 77.83000000000001 -6.045Q78.07000000000001 -3.9299999999999997 78.775 -2.4899999999999998Q79.48000000000002 -1.05 80.72500000000002 -0.36000000000000004Q81.97000000000001 0.32999999999999996 83.95000000000002 0.32999999999999996Q85.48000000000002 0.32999999999999996 86.57500000000002 -0.195Q87.67000000000002 -0.72 88.45000000000002 -1.98H88.51V0.0H91.69000000000001V-11.549999999999999H84.70000000000002V-8.37H87.55000000000001V-6.18Q87.55000000000001 -5.31 87.28 -4.664999999999999Q87.01 -4.02 86.60500000000002 -3.5999999999999996Q86.20000000000002 -3.1799999999999997 85.73500000000001 -2.9699999999999998Q85.27000000000001 -2.76 84.88000000000001 -2.76Q83.95000000000002 -2.76 83.36500000000001 -3.3449999999999998Q82.78000000000002 -3.9299999999999997 82.465 -5.025Q82.15 -6.12 82.03 -7.68Q81.91000000000001 -9.24 81.91000000000001 -11.16Q81.91000000000001 -15.18 82.60000000000001 -16.92Q83.29 -18.66 84.85000000000001 -18.66Q85.51 -18.66 85.97500000000001 -18.314999999999998Q86.44000000000001 -17.97 86.74000000000001 -17.445Q87.04 -16.919999999999998 87.17500000000001 -16.29Q87.31000000000002 -15.66 87.31000000000002 -15.059999999999999Z M113.45000000000002 -21.419999999999998H101.48000000000002V0.0H113.75000000000001V-3.54H105.80000000000001V-9.299999999999999H113.00000000000001V-12.84H105.80000000000001V-17.88H113.45000000000002Z M127.89000000000003 -21.419999999999998H122.91000000000003V0.0H126.87000000000002V-15.0H126.93000000000002L132.21000000000004 0.0H137.13000000000002V-21.419999999999998H133.17000000000002V-6.75H133.11Z M159.67000000000002 -21.419999999999998H145.99000000000004V-17.88H150.67000000000002V0.0H154.99V-17.88H159.67000000000002Z M194.70000000000002 -21.419999999999998H182.73000000000002V0.0H195.00000000000003V-3.54H187.05V-9.299999999999999H194.25000000000003V-12.84H187.05V-17.88H194.70000000000002Z M209.14000000000001 -21.419999999999998H204.16000000000003V0.0H208.12000000000003V-15.0H208.18000000000004L213.46000000000004 0.0H218.38000000000002V-21.419999999999998H214.42000000000002V-6.75H214.36Z M237.89000000000001 -15.059999999999999H242.03000000000003Q242.03000000000003 -18.33 240.47000000000003 -20.085Q238.91000000000003 -21.84 235.37000000000003 -21.84Q233.3 -21.84 231.92000000000002 -21.15Q230.54000000000002 -20.46 229.70000000000002 -19.095Q228.86 -17.73 228.51500000000001 -15.690000000000001Q228.17000000000002 -13.65 228.17000000000002 -10.95Q228.17000000000002 -8.16 228.41000000000003 -6.045Q228.65000000000003 -3.9299999999999997 229.35500000000002 -2.4899999999999998Q230.06000000000003 -1.05 231.305 -0.36000000000000004Q232.55 0.32999999999999996 234.53000000000003 0.32999999999999996Q236.06000000000003 0.32999999999999996 237.15500000000003 -0.195Q238.25000000000003 -0.72 239.03000000000003 -1.98H239.09000000000003V0.0H242.27V-11.549999999999999H235.28000000000003V-8.37H238.13000000000002V-6.18Q238.13000000000002 -5.31 237.86 -4.664999999999999Q237.59000000000003 -4.02 237.18500000000003 -3.5999999999999996Q236.78000000000003 -3.1799999999999997 236.31500000000003 -2.9699999999999998Q235.85000000000002 -2.76 235.46000000000004 -2.76Q234.53000000000003 -2.76 233.94500000000002 -3.3449999999999998Q233.36 -3.9299999999999997 233.04500000000002 -5.025Q232.73000000000002 -6.12 232.61 -7.68Q232.49 -9.24 232.49 -11.16Q232.49 -15.18 233.18 -16.92Q233.87000000000003 -18.66 235.43000000000004 -18.66Q236.09000000000003 -18.66 236.555 -18.314999999999998Q237.02 -17.97 237.32000000000002 -17.445Q237.62000000000003 -16.919999999999998 237.75500000000002 -16.29Q237.89000000000001 -15.66 237.89000000000001 -15.059999999999999Z M252.27000000000004 0.0H256.59000000000003V-21.419999999999998H252.27000000000004Z M271.78000000000003 -21.419999999999998H266.8V0.0H270.76V-15.0H270.82L276.1 0.0H281.02V-21.419999999999998H277.06V-6.75H277.0Z M302.99 -21.419999999999998H291.02V0.0H303.28999999999996V-3.54H295.34V-9.299999999999999H302.53999999999996V-12.84H295.34V-17.88H302.99Z M324.41999999999996 -21.419999999999998H312.45V0.0H324.71999999999997V-3.54H316.77V-9.299999999999999H323.96999999999997V-12.84H316.77V-17.88H324.41999999999996Z M333.88 -21.419999999999998V0.0H338.2V-9.06H340.51Q341.86 -9.06 342.43 -8.34Q343.0 -7.62 343.06 -6.359999999999999L343.18 -2.25Q343.21 -1.6199999999999999 343.29999999999995 -1.035Q343.39 -0.44999999999999996 343.71999999999997 0.0H348.4V-0.18Q347.8 -0.51 347.62 -1.41Q347.5 -2.31 347.44 -4.02Q347.40999999999997 -4.89 347.38 -5.595Q347.35 -6.3 347.29 -6.8999999999999995Q347.11 -8.7 346.36 -9.51Q345.61 -10.32 343.99 -10.559999999999999V-10.62Q345.82 -11.01 346.69 -12.375Q347.56 -13.74 347.56 -15.899999999999999Q347.56 -18.689999999999998 346.06 -20.055Q344.56 -21.419999999999998 341.86 -21.419999999999998ZM338.2 -12.059999999999999V-18.24H340.24Q343.24 -18.24 343.24 -15.27Q343.24 -13.53 342.4 -12.794999999999998Q341.56 -12.059999999999999 340.0 -12.059999999999999Z" fill="#FF6B35"/></g>
 
-<g clip-path="url(#typeclip)">
-  <text x="72" y="270" class="mono" fill="#8B949E">100 agents. One keyboard.</text>
+<g clip-path="url(#tc)"><text x="64" y="322" class="mono" fill="#8B949E">100 agents. One keyboard.</text></g>
+<text x="402" y="322" class="mono blink" fill="#FF6B35">&#9612;</text>
+
+<g class="in a3">
+  <text x="64"  y="388" class="stat" fill="#E6EDF3">782</text><text x="64"  y="405" class="lbl" fill="#6E7681">TESTS GREEN</text>
+  <rect x="64" y="414" width="0" height="2" fill="#FF6B35"><animate attributeName="width" values="0;84" dur="1s" begin="1.1s" fill="freeze"/></rect>
+  <text x="200" y="388" class="stat" fill="#E6EDF3">100</text><text x="200" y="405" class="lbl" fill="#6E7681">AGENTS PARALLEL</text>
+  <rect x="200" y="414" width="0" height="2" fill="#FF6B35"><animate attributeName="width" values="0;118" dur="1s" begin="1.25s" fill="freeze"/></rect>
+  <text x="376" y="388" class="stat" fill="#E6EDF3">0</text><text x="376" y="405" class="lbl" fill="#6E7681">DROPPED</text>
+  <rect x="376" y="414" width="0" height="2" fill="#FF6B35"><animate attributeName="width" values="0;56" dur="1s" begin="1.4s" fill="freeze"/></rect>
+  <text x="492" y="388" class="stat" fill="#E6EDF3">2019</text><text x="492" y="405" class="lbl" fill="#6E7681">SHIPPING SINCE</text>
+  <rect x="492" y="414" width="0" height="2" fill="#FF6B35"><animate attributeName="width" values="0;108" dur="1s" begin="1.55s" fill="freeze"/></rect>
 </g>
-<text x="410" y="270" class="mono blink" fill="#FF6B35">▌</text>
 
 <g class="in a4">
-  <text x="72"  y="344" class="stat" fill="#E6EDF3">632</text>
-  <text x="72"  y="362" class="lbl"  fill="#6E7681">TESTS GREEN</text>
-  <rect x="72" y="372" width="0" height="2" fill="#FF6B35"><animate attributeName="width" values="0;86" dur="1.1s" begin="1.0s" fill="freeze"/></rect>
-
-  <text x="216" y="344" class="stat" fill="#E6EDF3">100</text>
-  <text x="216" y="362" class="lbl"  fill="#6E7681">AGENTS PARALLEL</text>
-  <rect x="216" y="372" width="0" height="2" fill="#FF6B35"><animate attributeName="width" values="0;120" dur="1.1s" begin="1.2s" fill="freeze"/></rect>
-
-  <text x="396" y="344" class="stat" fill="#E6EDF3">0</text>
-  <text x="396" y="362" class="lbl"  fill="#6E7681">DROPPED</text>
-  <rect x="396" y="372" width="0" height="2" fill="#FF6B35"><animate attributeName="width" values="0;58" dur="1.1s" begin="1.4s" fill="freeze"/></rect>
-
-  <text x="516" y="344" class="stat" fill="#E6EDF3">2019</text>
-  <text x="516" y="362" class="lbl"  fill="#6E7681">SHIPPING SINCE</text>
-  <rect x="516" y="372" width="0" height="2" fill="#FF6B35"><animate attributeName="width" values="0;110" dur="1.1s" begin="1.6s" fill="freeze"/></rect>
-</g>
-
-<g class="in a6">
-  <circle cx="1136" cy="386" r="4" fill="#2EA043">
-    <animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <text x="1122" y="390" class="lbl" fill="#2EA043" text-anchor="end">AVAILABLE FOR WORK</text>
+  <circle cx="1140" cy="410" r="4" fill="#2EA043"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="1126" y="414" class="lbl" fill="#2EA043" text-anchor="end">AVAILABLE FOR WORK</text>
 </g>
 </svg>
