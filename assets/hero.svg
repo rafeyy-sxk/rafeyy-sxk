@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Abdul Rafey — AI Agent Engineer">
 <defs>
-  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+  <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="760" y2="0">
     <stop offset="0%" stop-color="#E6EDF3"/><stop offset="40%" stop-color="#E6EDF3"/>
     <stop offset="50%" stop-color="#FF8A4C"/><stop offset="60%" stop-color="#E6EDF3"/>
     <stop offset="100%" stop-color="#E6EDF3"/>
-    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-700 0;700 0;-700 0" dur="8s" repeatCount="indefinite"/>
   </linearGradient>
-  <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+  <linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="764" y2="0">
     <stop offset="0%" stop-color="#FF6B35"/><stop offset="55%" stop-color="#FF6B35" stop-opacity=".3"/>
     <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
   </linearGradient>
@@ -27,7 +27,7 @@
     .lbl  { font: 500 9.5px ui-monospace,"SF Mono",Menlo,Consolas,monospace; letter-spacing:2px }
     .in { opacity:0; animation: in .9s cubic-bezier(.2,.8,.3,1) forwards }
     .a1{animation-delay:.05s}.a2{animation-delay:.35s}.a3{animation-delay:.6s}.a4{animation-delay:.85s}
-    @keyframes in { from { opacity:0; transform: translateY(10px) } to { opacity:1; transform:none } }
+    @keyframes in { from { opacity:0 } to { opacity:1 } }
     .draw { stroke-dasharray:700; stroke-dashoffset:700; animation: draw 1.8s .5s cubic-bezier(.2,.75,.25,1) forwards }
     @keyframes draw { to { stroke-dashoffset:0 } }
     .blink { animation: blink 1.05s steps(1) infinite } @keyframes blink { 50% { opacity:0 } }
