@@ -63,6 +63,14 @@ Currently interested in agents that can be **trusted without supervision**: mech
 ![Streaming](https://img.shields.io/badge/TOKEN%20STREAMING-00B894?style=for-the-badge)
 ![BM25](https://img.shields.io/badge/BM25%20RETRIEVAL-795548?style=for-the-badge)
 ![SHAP](https://img.shields.io/badge/SHAP-FF0000?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP%20SERVERS-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG%20PIPELINES-00CEC9?style=for-the-badge)
+![Anthropic API](https://img.shields.io/badge/ANTHROPIC%20API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OPENAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/GEMINI%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![n8n](https://img.shields.io/badge/N8N-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/PROMPT%20ENGINEERING-6C5CE7?style=for-the-badge)
+![Evals](https://img.shields.io/badge/EVALS%20%26%20ADVERSARIAL%20REVIEW-2D3436?style=for-the-badge)
 
 ### 💻 Languages
 ![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -97,6 +105,12 @@ Currently interested in agents that can be **trusted without supervision**: mech
 ![NumPy](https://img.shields.io/badge/NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/MATPLOTLIB-11557C?style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TENSORFLOW-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/KERAS-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOV8-00FFFF?style=for-the-badge&logoColor=black)
+![XGBoost](https://img.shields.io/badge/XGBOOST-337AB7?style=for-the-badge)
+![PyTesseract](https://img.shields.io/badge/PYTESSERACT-4285F4?style=for-the-badge)
 
 ### ☁️ Infra & Quality
 ![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -109,6 +123,20 @@ Currently interested in agents that can be **trusted without supervision**: mech
 ![mypy](https://img.shields.io/badge/MYPY%20STRICT-2A6DB2?style=for-the-badge)
 ![Ruff](https://img.shields.io/badge/RUFF-D7FF64?style=for-the-badge&logo=ruff&logoColor=black)
 ![ESLint](https://img.shields.io/badge/ESLINT-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS%20S3%20%2B%20LAMBDA-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DUCKDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+![Oracle Cloud](https://img.shields.io/badge/ORACLE%20CLOUD-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+### 🔌 Integrations
+![Stripe](https://img.shields.io/badge/STRIPE-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+![Twilio](https://img.shields.io/badge/TWILIO-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
+![Telnyx](https://img.shields.io/badge/TELNYX-00C3A5?style=for-the-badge)
+![ElevenLabs](https://img.shields.io/badge/ELEVENLABS%20VOICE-000000?style=for-the-badge)
+![Webhooks](https://img.shields.io/badge/WEBHOOK%20PIPELINES-4A90E2?style=for-the-badge)
+![10DLC](https://img.shields.io/badge/10DLC%20COMPLIANCE-795548?style=for-the-badge)
+![Flask](https://img.shields.io/badge/FLASK-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Vite](https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 ---
 
@@ -213,6 +241,54 @@ Isolation Forest anomaly detection over NASA CMAPSS turbofan sensor data, with a
 Industrial defect detection tooling in Python: preprocessing, detection, benchmarking and ONNX export.
 
 **→ [rafeyy-sxk/opendefectkit](https://github.com/rafeyy-sxk/opendefectkit)**
+
+---
+
+## 🎓 Certifications
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/DEEPLEARNING.AI-Supervised%20Machine%20Learning-0A66C2?style=for-the-badge&logo=coursera&logoColor=white" alt="cert1"/>
+<img src="https://img.shields.io/badge/DEEPLEARNING.AI-Advanced%20Learning%20Algorithms-0A66C2?style=for-the-badge&logo=coursera&logoColor=white" alt="cert2"/>
+<img src="https://img.shields.io/badge/DEEPLEARNING.AI-Unsupervised%2C%20Recommenders%2C%20RL-0A66C2?style=for-the-badge&logo=coursera&logoColor=white" alt="cert3"/>
+<br/>
+<img src="https://img.shields.io/badge/LICENSED%20BY-STANFORD%20UNIVERSITY-8C1515?style=for-the-badge" alt="stanford"/>
+
+</div>
+
+- **Supervised Machine Learning: Regression & Classification** — DeepLearning.AI · Stanford University
+- **Advanced Learning Algorithms** — DeepLearning.AI · Stanford University
+- **Unsupervised Learning, Recommenders, Reinforcement Learning** — DeepLearning.AI · Stanford University
+
+---
+
+## 🏗 Also Built
+
+### 🤖 Multi-agent development harness *(author, in daily use)*
+![agents](https://img.shields.io/badge/70-SPECIALIST%20AGENTS-6C5CE7?style=flat-square)
+![skills](https://img.shields.io/badge/51-SKILLS-00B894?style=flat-square)
+![rules](https://img.shields.io/badge/33-AUTO--LOADED%20RULES-E17055?style=flat-square)
+![commands](https://img.shields.io/badge/89-COMMANDS-0984E3?style=flat-square)
+![hooks](https://img.shields.io/badge/16-SAFETY%20HOOKS-D63031?style=flat-square)
+![mcp](https://img.shields.io/badge/5-MCP%20SERVERS-000000?style=flat-square)
+
+A coordinating session allocates work to named agents on their own git worktrees, a guard blocks destructive commands before they run, and read-only audit agents adversarially review every diff before a pull request opens.
+
+### 🏎 PaceLab — live F1 race strategy platform *(sole developer)*
+![xgboost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
+![laps](https://img.shields.io/badge/trained%20on-61%2C332%20laps-2EA44F?style=flat-square)
+![monte carlo](https://img.shields.io/badge/10%2C000--run-Monte%20Carlo-6C5CE7?style=flat-square)
+![stack](https://img.shields.io/badge/FastAPI%20%2B%20DuckDB%20%2B%20React%2019-009688?style=flat-square)
+
+Weekly automated data refresh, finishing-position distributions from a 10,000-run simulation. **→ [pacelab-f1.vercel.app](https://pacelab-f1.vercel.app)**
+
+### 👁 Computer vision & document extraction *(client work)*
+![precision](https://img.shields.io/badge/94%25-PRECISION-2EA44F?style=flat-square)
+![recall](https://img.shields.io/badge/92%25-RECALL-2EA44F?style=flat-square)
+![ocr](https://img.shields.io/badge/91%25-OCR%20ACCURACY-0984E3?style=flat-square)
+![latency](https://img.shields.io/badge/-30%25-INFERENCE%20LATENCY-E17055?style=flat-square)
+
+Real-time inspection APIs on FastAPI and Docker that cut manual inspection time by around 60%, drawing and document extraction with OpenCV and PyTesseract that cut documentation time by around 70%, and AI APIs on AWS with automatic scaling.
 
 ---
 
