@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Tech stack">
+  <defs>
+    <style>
+      .k { font: 600 11.5px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 2.4px; fill: #FF6B35; }
+      .v { font: 400 15px ui-monospace, "SF Mono", Menlo, Consolas, monospace; fill: #C9D1D9; }
+      .row { opacity: 0; animation: in .7s ease forwards; }
+      @keyframes in { from { opacity:0; transform: translateY(6px) } to { opacity:1; transform: none } }
+      .r1{animation-delay:.05s} .r2{animation-delay:.15s} .r3{animation-delay:.25s}
+      .r4{animation-delay:.35s} .r5{animation-delay:.45s} .r6{animation-delay:.55s}
+    </style>
+  </defs>
+  <rect width="1200" height="420" rx="10" fill="#0D1117" stroke="#21262D"/>
+
+  <g class="row r1">
+    <text x="48" y="70" class="k">AGENTS</text>
+    <text x="230" y="70" class="v">Groq · LangGraph · LangChain · CrewAI · MCP · tool calling · evals · RAG</text>
+  </g>
+  <line x1="48" y1="94" x2="1152" y2="94" stroke="#161B22"/>
+
+  <g class="row r2">
+    <text x="48" y="128" class="k">LANGUAGES</text>
+    <text x="230" y="128" class="v">Python · TypeScript · JavaScript · SQL · Bash</text>
+  </g>
+  <line x1="48" y1="152" x2="1152" y2="152" stroke="#161B22"/>
+
+  <g class="row r3">
+    <text x="48" y="186" class="k">BACKEND</text>
+    <text x="230" y="186" class="v">Node · FastAPI · Express · Prisma · PostgreSQL · Redis · BullMQ · Zod</text>
+  </g>
+  <line x1="48" y1="210" x2="1152" y2="210" stroke="#161B22"/>
+
+  <g class="row r4">
+    <text x="48" y="244" class="k">FRONTEND</text>
+    <text x="230" y="244" class="v">Next.js · React · Tailwind · Vite</text>
+  </g>
+  <line x1="48" y1="268" x2="1152" y2="268" stroke="#161B22"/>
+
+  <g class="row r5">
+    <text x="48" y="302" class="k">ML</text>
+    <text x="230" y="302" class="v">PyTorch · scikit-learn · XGBoost · YOLOv8 · OpenCV · SHAP · pandas</text>
+  </g>
+  <line x1="48" y1="326" x2="1152" y2="326" stroke="#161B22"/>
+
+  <g class="row r6">
+    <text x="48" y="360" class="k">INFRA</text>
+    <text x="230" y="360" class="v">Docker · Kubernetes · GitHub Actions · Vercel · AWS · Stripe · Twilio</text>
+  </g>
+</svg>
