@@ -113,17 +113,9 @@ Industrial defect detection in Python — preprocessing, detection, benchmarking
 
 <br/>
 
-## Experience
+## Certifications
 
-**Freelance AI & Full-Stack Engineer** · 2019 → present
-
-**Orion AI Solutions** · 2026 · production AI platform where agents call customers by voice and Stripe bills the account. Node, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, React, Kubernetes. Shipped features, diagnosed live incidents, and built the verification process the team shipped under — a failing test first, a planted defect that must bite a named test, and an adversarial review of every diff.
-
-**Independent clients** · 2019 → 2025 · backend services, APIs, data pipelines and web applications across Python and JavaScript.
-
-<br/>
-
-**Certifications** — Supervised Machine Learning · Advanced Learning Algorithms · Unsupervised Learning, Recommenders, Reinforcement Learning
+Supervised Machine Learning · Advanced Learning Algorithms · Unsupervised Learning, Recommenders, Reinforcement Learning
 *DeepLearning.AI, licensed by Stanford University*
 
 <br/>
