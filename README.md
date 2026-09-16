@@ -1,315 +1,157 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F55036,50:6C5CE7,100:0A66C2&height=200&section=header&text=Abdul%20Rafey&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Agent%20Engineer&descAlignY=58&descSize=22" alt="header"/>
-
 <div align="center">
 
-<a href="https://github.com/rafeyy-sxk"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=F55036&center=true&vCenter=true&width=700&lines=100+agents.+One+keyboard.;Agents+that+verify+their+own+work.;Full-stack+engineer+since+2019.;If+it+cannot+prove+it%2C+it+does+not+ship." alt="typing"/></a>
+<img src="./assets/hero.svg" width="100%" alt="Abdul Rafey — AI Agent Engineer"/>
+
+<br/><br/>
+
+<a href="mailto:abdulrafeyy23@gmail.com"><img src="https://img.shields.io/badge/email-0D1117?style=flat-square&logo=gmail&logoColor=8B949E&labelColor=0D1117" alt="email"/></a>
+<a href="https://github.com/rafeyy-sxk/relic-ai"><img src="https://img.shields.io/badge/relic--ai-0D1117?style=flat-square&logo=github&logoColor=8B949E&labelColor=0D1117" alt="relic"/></a>
+<a href="https://pacelab-f1.vercel.app"><img src="https://img.shields.io/badge/pacelab-0D1117?style=flat-square&logo=vercel&logoColor=8B949E&labelColor=0D1117" alt="pacelab"/></a>
+<img src="https://komarev.com/ghpvc/?username=rafeyy-sxk&style=flat-square&color=161B22&label=views" alt="views"/>
+
+</div>
 
 <br/>
 
-<img src="https://img.shields.io/badge/7%2B%20YEARS-BUILDING%20SOFTWARE-0A66C2?style=for-the-badge" alt="7+ years"/>
-<img src="https://img.shields.io/badge/SINCE-2019-24292e?style=for-the-badge" alt="since 2019"/>
-<img src="https://img.shields.io/badge/FOCUS-AI%20AGENTS-F55036?style=for-the-badge" alt="focus"/>
-<img src="https://img.shields.io/badge/OPEN%20TO-REMOTE%20ROLES-2EA44F?style=for-the-badge" alt="open to work"/>
+I build **autonomous agent systems that prove their own work.** Agents that verify what they output, refuse the action they cannot justify, and run under tests and CI like any other production code.
 
-<a href="mailto:abdulrafeyy23@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
-<a href="https://github.com/rafeyy-sxk/relic-ai"><img src="https://img.shields.io/badge/FLAGSHIP-relic--ai-24292e?style=for-the-badge&logo=github&logoColor=white" alt="relic"/></a>
-<a href="https://github.com/rafeyy-sxk?tab=repositories"><img src="https://img.shields.io/badge/ALL%20REPOS-181717?style=for-the-badge&logo=github&logoColor=white" alt="repos"/></a>
-<img src="https://komarev.com/ghpvc/?username=rafeyy-sxk&style=for-the-badge&color=F55036&label=PROFILE+VIEWS" alt="views"/>
+Seven years shipping software. The last stretch entirely on agents — design, orchestration, guardrails, evaluation, deployment.
 
-</div>
+<br/>
 
 ---
 
-Building **autonomous agent systems** that do real work and **prove it** — agents that verify their own output, refuse the action they cannot justify, and run under tests and CI like any other production code.
+<br/>
 
-**Full-stack engineer since 2019 — seven years shipping production systems**, the last stretch spent entirely on agents. I work end to end across the pipeline: **design → orchestration → guardrails → evaluation → deployment.**
+## Work
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 🧠 Focus
+### [Relic](https://github.com/rafeyy-sxk/relic-ai)
+**An agent that refuses to guess.**
 
-<div align="center">
+Point it at legacy Python and walk away. It writes a characterization suite for each file, then **sabotages the original code twelve times and demands the tests notice.** A suite that catches nothing is decoration — that file is left alone, and the reason is written down.
 
-![Agent Orchestration](https://img.shields.io/badge/AGENT%20ORCHESTRATION-6C5CE7?style=for-the-badge)
-![Self-Verifying Systems](https://img.shields.io/badge/SELF--VERIFYING%20SYSTEMS-00B894?style=for-the-badge)
-![LLM Evaluation](https://img.shields.io/badge/LLM%20EVALUATION-E17055?style=for-the-badge)
-![Tool Use](https://img.shields.io/badge/TOOL%20USE-0984E3?style=for-the-badge)
-![Guardrails](https://img.shields.io/badge/GUARDRAILS-D63031?style=for-the-badge)
-![Multi-Agent](https://img.shields.io/badge/MULTI--AGENT-FDCB6E?style=for-the-badge&logoColor=black)
-![RAG](https://img.shields.io/badge/RAG-00CEC9?style=for-the-badge)
-![Rate-Limit Scheduling](https://img.shields.io/badge/RATE--LIMIT%20SCHEDULING-2D3436?style=for-the-badge)
-![Observability](https://img.shields.io/badge/AGENT%20OBSERVABILITY-636E72?style=for-the-badge)
+`330 tests` · `95% coverage` · `mypy strict`
 
-</div>
-
-Currently interested in agents that can be **trusted without supervision**: mechanical verification instead of a model marking its own homework, schedulers that run a hundred agents inside a hard rate limit without dropping one, and evaluation harnesses that tell you which model actually earns its place.
-
----
-
-## ⚙️ Tech Stack
-
-<div align="center">
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,nodejs,nextjs,react,tailwind,fastapi,postgres,redis,prisma,docker,kubernetes,git,github,githubactions,vercel,linux,vscode,sklearn&perline=10" alt="skills"/>
-</div>
-
-### 🤖 Agents & AI
-![Groq](https://img.shields.io/badge/GROQ-F55036?style=for-the-badge&logo=groq&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LANGGRAPH-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LANGCHAIN-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![CrewAI](https://img.shields.io/badge/CREWAI-4A90E2?style=for-the-badge)
-![Claude Code](https://img.shields.io/badge/CLAUDE%20CODE-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![ElevenLabs](https://img.shields.io/badge/ELEVENLABS-000000?style=for-the-badge)
-![Tool Calling](https://img.shields.io/badge/TOOL%20CALLING-6C5CE7?style=for-the-badge)
-![Streaming](https://img.shields.io/badge/TOKEN%20STREAMING-00B894?style=for-the-badge)
-![BM25](https://img.shields.io/badge/BM25%20RETRIEVAL-795548?style=for-the-badge)
-![SHAP](https://img.shields.io/badge/SHAP-FF0000?style=for-the-badge)
-![MCP](https://img.shields.io/badge/MCP%20SERVERS-000000?style=for-the-badge&logo=anthropic&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG%20PIPELINES-00CEC9?style=for-the-badge)
-![Anthropic API](https://img.shields.io/badge/ANTHROPIC%20API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OPENAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/GEMINI%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![n8n](https://img.shields.io/badge/N8N-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/PROMPT%20ENGINEERING-6C5CE7?style=for-the-badge)
-![Evals](https://img.shields.io/badge/EVALS%20%26%20ADVERSARIAL%20REVIEW-2D3436?style=for-the-badge)
-
-### 💻 Languages
-![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/BASH-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Markdown](https://img.shields.io/badge/MARKDOWN-000000?style=for-the-badge&logo=markdown&logoColor=white)
-
-### 🛠 Backend & Data
-![Node.js](https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Express](https://img.shields.io/badge/EXPRESS-000000?style=for-the-badge&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/PRISMA-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BULLMQ-E10098?style=for-the-badge)
-![REST](https://img.shields.io/badge/REST%20APIs-02569B?style=for-the-badge)
-![Zod](https://img.shields.io/badge/ZOD-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
-
-### 🎨 Frontend
-![Next.js](https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Tailwind](https://img.shields.io/badge/TAILWIND-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### 🔬 ML & Vision
-![scikit-learn](https://img.shields.io/badge/SCIKIT--LEARN-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OPENCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![pandas](https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/MATPLOTLIB-11557C?style=for-the-badge)
-![PyTorch](https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TENSORFLOW-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/KERAS-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOV8-00FFFF?style=for-the-badge&logoColor=black)
-![XGBoost](https://img.shields.io/badge/XGBOOST-337AB7?style=for-the-badge)
-![PyTesseract](https://img.shields.io/badge/PYTESSERACT-4285F4?style=for-the-badge)
-
-### ☁️ Infra & Quality
-![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/KUBERNETES-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GITHUB%20ACTIONS-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Linux](https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![pytest](https://img.shields.io/badge/PYTEST-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Vitest](https://img.shields.io/badge/VITEST-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-![mypy](https://img.shields.io/badge/MYPY%20STRICT-2A6DB2?style=for-the-badge)
-![Ruff](https://img.shields.io/badge/RUFF-D7FF64?style=for-the-badge&logo=ruff&logoColor=black)
-![ESLint](https://img.shields.io/badge/ESLINT-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS%20S3%20%2B%20LAMBDA-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DUCKDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
-![Oracle Cloud](https://img.shields.io/badge/ORACLE%20CLOUD-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-
-### 🔌 Integrations
-![Stripe](https://img.shields.io/badge/STRIPE-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
-![Twilio](https://img.shields.io/badge/TWILIO-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
-![Telnyx](https://img.shields.io/badge/TELNYX-00C3A5?style=for-the-badge)
-![ElevenLabs](https://img.shields.io/badge/ELEVENLABS%20VOICE-000000?style=for-the-badge)
-![Webhooks](https://img.shields.io/badge/WEBHOOK%20PIPELINES-4A90E2?style=for-the-badge)
-![10DLC](https://img.shields.io/badge/10DLC%20COMPLIANCE-795548?style=for-the-badge)
-![Flask](https://img.shields.io/badge/FLASK-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Streamlit](https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Vite](https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
----
-
-## 📊 GitHub
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=rafeyy-sxk&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F55036&icon_color=6C5CE7" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafeyy-sxk&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F55036" alt="languages"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=rafeyy-sxk&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies"/>
-
-</div>
-
----
-
-## 💼 Experience
-
-<div align="center">
-
-![Years](https://img.shields.io/badge/2019%20→%20PRESENT-7%20YEARS-0A66C2?style=for-the-badge)
-![Role](https://img.shields.io/badge/FREELANCE-AI%20%26%20FULL--STACK%20ENGINEER-24292e?style=for-the-badge)
-![Timezone](https://img.shields.io/badge/UTC%2B5-US%20HOURS%20OVERLAP-2EA44F?style=for-the-badge)
-
-</div>
-
-### Freelance AI & Full-Stack Engineer · 2019 → Present
-
-**Orion AI Solutions** · *2026* · production AI platform
-- AI agents that **call customers by voice** and a billing system that charges the account for it
-- Node · TypeScript · Prisma · PostgreSQL · Redis · BullMQ · React · Kubernetes · Stripe
-- Shipped features into a live US platform, handled production incidents, read production data to diagnose them
-- Worked to a hard review standard: every claim backed by a live source, every fix proved by a test that fails without it
-
-**Independent clients** · *2019 → 2025* · full-stack web and backend engagements
-- Backend services, APIs, data pipelines and web applications across Python and JavaScript
-
----
-
-## 🎯 What I Bring To A Team
-
-| Area | Evidence |
-|---|---|
-| **Agent systems end to end** | 4 public repos: orchestration, tool use, verification, evaluation |
-| **Testing discipline** | 330 · 186 · 71 · 45 tests across projects, all CI-green, all with planted-defect proofs |
-| **Type safety** | `mypy --strict` and `tsc` strict clean on every project |
-| **Rate-limit engineering** | 100 concurrent agents held inside an 8,000 token/minute ceiling, zero dropped |
-| **Production backend** | PostgreSQL, Redis, queues, Kubernetes, Stripe billing on a live platform |
-| **Honest engineering** | Every README states what the code does NOT do, and names its residual gaps |
-
-<div align="center">
-
-![Available](https://img.shields.io/badge/AVAILABLE-IMMEDIATELY-2EA44F?style=for-the-badge)
-![Type](https://img.shields.io/badge/CONTRACT%20OR%20FULL--TIME-6C5CE7?style=for-the-badge)
-![Remote](https://img.shields.io/badge/100%25-REMOTE-0A66C2?style=for-the-badge)
-
-</div>
-
----
-
-## 🚀 What I Work On
-
-### 🧩 Relic — the agent that refuses to guess
 [![ci](https://github.com/rafeyy-sxk/relic-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/rafeyy-sxk/relic-ai/actions/workflows/ci.yml)
-![tests](https://img.shields.io/badge/tests-330-brightgreen?style=flat-square)
-![coverage](https://img.shields.io/badge/coverage-95%25-brightgreen?style=flat-square)
-![mypy](https://img.shields.io/badge/mypy-strict-2A6DB2?style=flat-square)
-![python](https://img.shields.io/badge/python-3.11%20|%203.12-3776AB?style=flat-square)
-![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
-Point it at a legacy Python repository and walk away. It writes a characterization test suite for each file, then **sabotages the original code twelve times and demands the tests notice.** A suite that catches nothing is decoration, so that file is left alone and the reason is written down. What survives gets refactored, verified, and opened as one branch per file. It also scores every model it can drive and retires the ones that stop earning their place.
+</td>
+<td width="50%" valign="top">
 
-**→ [rafeyy-sxk/relic-ai](https://github.com/rafeyy-sxk/relic-ai)**
+### [Multi-Agent Research](https://github.com/rafeyy-sxk/multi-agent-research)
+**Answers that cannot be unsourced.**
 
-### 🔍 Multi-Agent Research — answers that cannot be unsourced
+Four agents plan, fetch, extract and verify. The verifier must quote the source verbatim, and that quote is **checked against the document mechanically** — a fabricated quote cannot pass, however confident the model sounds.
+
+`71 tests` · `98% coverage` · `mypy strict`
+
 [![ci](https://github.com/rafeyy-sxk/multi-agent-research/actions/workflows/ci.yml/badge.svg)](https://github.com/rafeyy-sxk/multi-agent-research/actions/workflows/ci.yml)
-![tests](https://img.shields.io/badge/tests-71-brightgreen?style=flat-square)
-![coverage](https://img.shields.io/badge/coverage-98%25-brightgreen?style=flat-square)
-![mypy](https://img.shields.io/badge/mypy-strict-2A6DB2?style=flat-square)
-![groq](https://img.shields.io/badge/groq-free%20tier-F55036?style=flat-square)
 
-Four agents plan, fetch, extract and verify. The verifier must quote the source verbatim, and that quote is **checked against the document mechanically** — so a fabricated quote cannot pass, however confident the model sounds. Everything unproven is cut from the report and listed with its reason.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**→ [rafeyy-sxk/multi-agent-research](https://github.com/rafeyy-sxk/multi-agent-research)**
+### [Fault Diagnosis Agent](https://github.com/rafeyy-sxk/xai-fault-diagnosis-agent)
+**An agent on real industrial data.**
 
-### ⚙️ Explainable Fault Diagnosis — an agent on real industrial data
+Isolation Forest anomaly detection over NASA CMAPSS turbofan sensors, with a LangGraph agent that explains *why* a reading is anomalous through SHAP attribution and estimates remaining useful life.
+
+`45 tests` · `LangGraph` · `FastAPI`
+
 [![ci](https://github.com/rafeyy-sxk/xai-fault-diagnosis-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/rafeyy-sxk/xai-fault-diagnosis-agent/actions/workflows/ci.yml)
-![tests](https://img.shields.io/badge/tests-45-brightgreen?style=flat-square)
-![langgraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![fastapi](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![shap](https://img.shields.io/badge/SHAP-FF0000?style=flat-square)
 
-Isolation Forest anomaly detection over NASA CMAPSS turbofan sensor data, with a LangGraph agent that explains *why* a reading is anomalous using SHAP attribution, estimates remaining useful life, and recommends maintenance actions.
+</td>
+<td width="50%" valign="top">
 
-**→ [rafeyy-sxk/xai-fault-diagnosis-agent](https://github.com/rafeyy-sxk/xai-fault-diagnosis-agent)**
+### [OpenDefectKit](https://github.com/rafeyy-sxk/opendefectkit)
+**Computer vision inspection infrastructure.**
 
-### 👁 OpenDefectKit — computer vision inspection infrastructure
-![python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white)
-![opencv](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![onnx](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+Industrial defect detection in Python — preprocessing, detection, benchmarking and ONNX export, built as a library rather than a notebook.
 
-Industrial defect detection tooling in Python: preprocessing, detection, benchmarking and ONNX export.
+`Python` · `OpenCV` · `ONNX`
 
-**→ [rafeyy-sxk/opendefectkit](https://github.com/rafeyy-sxk/opendefectkit)**
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
-## 🎓 Certifications
+<br/>
+
+## Stack
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/DEEPLEARNING.AI-Supervised%20Machine%20Learning-0A66C2?style=for-the-badge&logo=coursera&logoColor=white" alt="cert1"/>
-<img src="https://img.shields.io/badge/DEEPLEARNING.AI-Advanced%20Learning%20Algorithms-0A66C2?style=for-the-badge&logo=coursera&logoColor=white" alt="cert2"/>
-<img src="https://img.shields.io/badge/DEEPLEARNING.AI-Unsupervised%2C%20Recommenders%2C%20RL-0A66C2?style=for-the-badge&logo=coursera&logoColor=white" alt="cert3"/>
-<br/>
-<img src="https://img.shields.io/badge/LICENSED%20BY-STANFORD%20UNIVERSITY-8C1515?style=for-the-badge" alt="stanford"/>
-
+<img src="./assets/stack.svg" width="100%" alt="Tech stack"/>
 </div>
 
-- **Supervised Machine Learning: Regression & Classification** — DeepLearning.AI · Stanford University
-- **Advanced Learning Algorithms** — DeepLearning.AI · Stanford University
-- **Unsupervised Learning, Recommenders, Reinforcement Learning** — DeepLearning.AI · Stanford University
+<br/>
 
 ---
 
-## 🏗 Also Built
+<br/>
 
-### 🤖 Multi-agent development harness *(author, in daily use)*
-![agents](https://img.shields.io/badge/70-SPECIALIST%20AGENTS-6C5CE7?style=flat-square)
-![skills](https://img.shields.io/badge/51-SKILLS-00B894?style=flat-square)
-![rules](https://img.shields.io/badge/33-AUTO--LOADED%20RULES-E17055?style=flat-square)
-![commands](https://img.shields.io/badge/89-COMMANDS-0984E3?style=flat-square)
-![hooks](https://img.shields.io/badge/16-SAFETY%20HOOKS-D63031?style=flat-square)
-![mcp](https://img.shields.io/badge/5-MCP%20SERVERS-000000?style=flat-square)
+## Also built
 
-A coordinating session allocates work to named agents on their own git worktrees, a guard blocks destructive commands before they run, and read-only audit agents adversarially review every diff before a pull request opens.
+**Multi-agent development harness** — the system my own work runs under. A coordinating session allocates work to named agents on their own git worktrees, a guard blocks destructive commands before they run, and read-only auditors adversarially review every diff before a pull request opens.
+`70 agents` · `51 skills` · `33 rules` · `16 hooks` · `5 MCP servers`
 
-### 🏎 PaceLab — live F1 race strategy platform *(sole developer)*
-![xgboost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
-![laps](https://img.shields.io/badge/trained%20on-61%2C332%20laps-2EA44F?style=flat-square)
-![monte carlo](https://img.shields.io/badge/10%2C000--run-Monte%20Carlo-6C5CE7?style=flat-square)
-![stack](https://img.shields.io/badge/FastAPI%20%2B%20DuckDB%20%2B%20React%2019-009688?style=flat-square)
+**[PaceLab](https://pacelab-f1.vercel.app)** — live F1 race strategy platform, sole developer. FastAPI and DuckDB on Oracle Cloud, React 19 on Vercel, weekly automated refresh.
+`61,332 laps` · `10,000-run Monte Carlo` · `XGBoost`
 
-Weekly automated data refresh, finishing-position distributions from a 10,000-run simulation. **→ [pacelab-f1.vercel.app](https://pacelab-f1.vercel.app)**
+**Computer vision and document extraction** — real-time inspection APIs on FastAPI and Docker.
+`94% precision` · `92% recall` · `91% OCR accuracy` · `−30% inference latency`
 
-### 👁 Computer vision & document extraction *(client work)*
-![precision](https://img.shields.io/badge/94%25-PRECISION-2EA44F?style=flat-square)
-![recall](https://img.shields.io/badge/92%25-RECALL-2EA44F?style=flat-square)
-![ocr](https://img.shields.io/badge/91%25-OCR%20ACCURACY-0984E3?style=flat-square)
-![latency](https://img.shields.io/badge/-30%25-INFERENCE%20LATENCY-E17055?style=flat-square)
-
-Real-time inspection APIs on FastAPI and Docker that cut manual inspection time by around 60%, drawing and document extraction with OpenCV and PyTesseract that cut documentation time by around 70%, and AI APIs on AWS with automatic scaling.
+<br/>
 
 ---
 
-## 🧪 How I Build
+<br/>
 
-| Principle | What it means in practice |
-|---|---|
-| **A test that cannot fail is not a test** | Plant the defect, prove a named test bites, then restore |
-| **Verify mechanically, not rhetorically** | If a model claims support, check the claim against the source in code |
-| **Every number has a receipt** | Exit codes, row counts, timestamps — or it does not go in the README |
-| **Fail loudly, degrade gracefully** | A dead dependency announces itself; it never returns an empty result that looks like success |
-| **The map before the grind** | See the whole thing end to end, then build it once |
+## Experience
+
+**Freelance AI & Full-Stack Engineer** · 2019 → present
+
+**Orion AI Solutions** · 2026 · production AI platform where agents call customers by voice and Stripe bills the account. Node, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, React, Kubernetes. Shipped features, diagnosed live incidents, and built the verification process the team shipped under — a failing test first, a planted defect that must bite a named test, and an adversarial review of every diff.
+
+**Independent clients** · 2019 → 2025 · backend services, APIs, data pipelines and web applications across Python and JavaScript.
+
+<br/>
+
+**Certifications** — Supervised Machine Learning · Advanced Learning Algorithms · Unsupervised Learning, Recommenders, Reinforcement Learning
+*DeepLearning.AI, licensed by Stanford University*
+
+<br/>
 
 ---
+
+<br/>
+
+## How I build
+
+> **A test that cannot fail is not a test.** Plant the defect, prove a named test bites, then restore.
+>
+> **Verify mechanically, not rhetorically.** If a model claims support, check the claim against the source in code.
+>
+> **Every number has a receipt.** Exit codes, row counts, timestamps — or it does not go in the README.
+>
+> **The map before the grind.** See the whole thing end to end, then build it once.
+
+<br/>
 
 <div align="center">
 
-### 💬 Open to remote roles building agent systems
+<img height="140" src="https://github-readme-stats.vercel.app/api?username=rafeyy-sxk&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=8B949E&icon_color=6E7681&hide_title=true" alt="stats"/>
+<img height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafeyy-sxk&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=8B949E" alt="languages"/>
 
-<a href="mailto:abdulrafeyy23@gmail.com"><img src="https://img.shields.io/badge/abdulrafeyy23@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
+<br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,50:6C5CE7,100:F55036&height=120&section=footer" alt="footer"/>
+**Open to remote roles building agent systems**
+`abdulrafeyy23@gmail.com`
 
 </div>
