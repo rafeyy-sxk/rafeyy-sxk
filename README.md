@@ -125,6 +125,50 @@ Currently interested in agents that can be **trusted without supervision**: mech
 
 ---
 
+## 💼 Experience
+
+<div align="center">
+
+![Years](https://img.shields.io/badge/2019%20→%20PRESENT-7%20YEARS-0A66C2?style=for-the-badge)
+![Role](https://img.shields.io/badge/FREELANCE-AI%20%26%20FULL--STACK%20ENGINEER-24292e?style=for-the-badge)
+![Timezone](https://img.shields.io/badge/UTC%2B5-US%20HOURS%20OVERLAP-2EA44F?style=for-the-badge)
+
+</div>
+
+### Freelance AI & Full-Stack Engineer · 2019 → Present
+
+**Orion AI Solutions** · *2026* · production AI platform
+- AI agents that **call customers by voice** and a billing system that charges the account for it
+- Node · TypeScript · Prisma · PostgreSQL · Redis · BullMQ · React · Kubernetes · Stripe
+- Shipped features into a live US platform, handled production incidents, read production data to diagnose them
+- Worked to a hard review standard: every claim backed by a live source, every fix proved by a test that fails without it
+
+**Independent clients** · *2019 → 2025* · full-stack web and backend engagements
+- Backend services, APIs, data pipelines and web applications across Python and JavaScript
+
+---
+
+## 🎯 What I Bring To A Team
+
+| Area | Evidence |
+|---|---|
+| **Agent systems end to end** | 4 public repos: orchestration, tool use, verification, evaluation |
+| **Testing discipline** | 330 · 186 · 71 · 45 tests across projects, all CI-green, all with planted-defect proofs |
+| **Type safety** | `mypy --strict` and `tsc` strict clean on every project |
+| **Rate-limit engineering** | 100 concurrent agents held inside an 8,000 token/minute ceiling, zero dropped |
+| **Production backend** | PostgreSQL, Redis, queues, Kubernetes, Stripe billing on a live platform |
+| **Honest engineering** | Every README states what the code does NOT do, and names its residual gaps |
+
+<div align="center">
+
+![Available](https://img.shields.io/badge/AVAILABLE-IMMEDIATELY-2EA44F?style=for-the-badge)
+![Type](https://img.shields.io/badge/CONTRACT%20OR%20FULL--TIME-6C5CE7?style=for-the-badge)
+![Remote](https://img.shields.io/badge/100%25-REMOTE-0A66C2?style=for-the-badge)
+
+</div>
+
+---
+
 ## 🚀 What I Work On
 
 ### 🧩 Relic — the agent that refuses to guess
