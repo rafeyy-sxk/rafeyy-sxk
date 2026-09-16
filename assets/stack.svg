@@ -1,48 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Tech stack">
-  <defs>
-    <style>
-      .k { font: 600 11.5px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 2.4px; fill: #FF6B35; }
-      .v { font: 400 15px ui-monospace, "SF Mono", Menlo, Consolas, monospace; fill: #C9D1D9; }
-      .row { opacity: 0; animation: in .7s ease forwards; }
-      @keyframes in { from { opacity:0; transform: translateY(6px) } to { opacity:1; transform: none } }
-      .r1{animation-delay:.05s} .r2{animation-delay:.15s} .r3{animation-delay:.25s}
-      .r4{animation-delay:.35s} .r5{animation-delay:.45s} .r6{animation-delay:.55s}
-    </style>
-  </defs>
-  <rect width="1200" height="420" rx="10" fill="#0D1117" stroke="#21262D"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Tech stack">
+<defs>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"  stop-color="#FF6B35" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#FF6B35" stop-opacity="0.16"/>
+    <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#6C5CE7" stop-opacity="0.5"/>
+  </linearGradient>
+  <style>
+    .k { font: 600 11px ui-monospace,"SF Mono",Menlo,Consolas,monospace; letter-spacing:2.6px; fill:#FF6B35 }
+    .v { font: 400 14.5px ui-monospace,"SF Mono",Menlo,Consolas,monospace; fill:#C9D1D9 }
+    .row { opacity:0; animation: slide .65s cubic-bezier(.2,.8,.3,1) forwards }
+    @keyframes slide { from { opacity:0; transform: translateX(-14px) } to { opacity:1; transform:none } }
+    .r1{animation-delay:.05s}.r2{animation-delay:.14s}.r3{animation-delay:.23s}
+    .r4{animation-delay:.32s}.r5{animation-delay:.41s}.r6{animation-delay:.50s}
+    .dot { animation: tick 3s ease-in-out infinite }
+    @keyframes tick { 0%,100% { opacity:.35 } 50% { opacity:1 } }
+  </style>
+</defs>
 
-  <g class="row r1">
-    <text x="48" y="70" class="k">AGENTS</text>
-    <text x="230" y="70" class="v">Groq · LangGraph · LangChain · CrewAI · MCP · tool calling · evals · RAG</text>
-  </g>
-  <line x1="48" y1="94" x2="1152" y2="94" stroke="#161B22"/>
+<rect width="1200" height="430" rx="12" fill="#0D1117" stroke="#21262D"/>
+<rect x="0" y="0" width="3" height="430" rx="1.5" fill="url(#edge)"/>
 
-  <g class="row r2">
-    <text x="48" y="128" class="k">LANGUAGES</text>
-    <text x="230" y="128" class="v">Python · TypeScript · JavaScript · SQL · Bash</text>
-  </g>
-  <line x1="48" y1="152" x2="1152" y2="152" stroke="#161B22"/>
+<rect x="0" y="0" width="300" height="430" fill="url(#beam)">
+  <animate attributeName="x" values="-300;1200" dur="6s" repeatCount="indefinite"/>
+</rect>
 
-  <g class="row r3">
-    <text x="48" y="186" class="k">BACKEND</text>
-    <text x="230" y="186" class="v">Node · FastAPI · Express · Prisma · PostgreSQL · Redis · BullMQ · Zod</text>
-  </g>
-  <line x1="48" y1="210" x2="1152" y2="210" stroke="#161B22"/>
+<g class="row r1">
+  <circle class="dot" cx="40" cy="64" r="3" fill="#FF6B35"/>
+  <text x="62" y="68" class="k">AGENTS</text>
+  <text x="250" y="68" class="v">Groq · LangGraph · LangChain · CrewAI · MCP · tool calling · evals · RAG</text>
+</g>
+<line x1="40" y1="92" x2="1160" y2="92" stroke="#161B22"/>
 
-  <g class="row r4">
-    <text x="48" y="244" class="k">FRONTEND</text>
-    <text x="230" y="244" class="v">Next.js · React · Tailwind · Vite</text>
-  </g>
-  <line x1="48" y1="268" x2="1152" y2="268" stroke="#161B22"/>
+<g class="row r2">
+  <circle class="dot" cx="40" cy="124" r="3" fill="#FF6B35"><animate attributeName="opacity" values=".35;1;.35" dur="3s" begin=".4s" repeatCount="indefinite"/></circle>
+  <text x="62" y="128" class="k">LANGUAGES</text>
+  <text x="250" y="128" class="v">Python · TypeScript · JavaScript · SQL · Bash</text>
+</g>
+<line x1="40" y1="152" x2="1160" y2="152" stroke="#161B22"/>
 
-  <g class="row r5">
-    <text x="48" y="302" class="k">ML</text>
-    <text x="230" y="302" class="v">PyTorch · scikit-learn · XGBoost · YOLOv8 · OpenCV · SHAP · pandas</text>
-  </g>
-  <line x1="48" y1="326" x2="1152" y2="326" stroke="#161B22"/>
+<g class="row r3">
+  <circle class="dot" cx="40" cy="184" r="3" fill="#FF6B35"><animate attributeName="opacity" values=".35;1;.35" dur="3s" begin=".8s" repeatCount="indefinite"/></circle>
+  <text x="62" y="188" class="k">BACKEND</text>
+  <text x="250" y="188" class="v">Node · FastAPI · Express · Prisma · PostgreSQL · Redis · BullMQ · Zod</text>
+</g>
+<line x1="40" y1="212" x2="1160" y2="212" stroke="#161B22"/>
 
-  <g class="row r6">
-    <text x="48" y="360" class="k">INFRA</text>
-    <text x="230" y="360" class="v">Docker · Kubernetes · GitHub Actions · Vercel · AWS · Stripe · Twilio</text>
-  </g>
+<g class="row r4">
+  <circle class="dot" cx="40" cy="244" r="3" fill="#FF6B35"><animate attributeName="opacity" values=".35;1;.35" dur="3s" begin="1.2s" repeatCount="indefinite"/></circle>
+  <text x="62" y="248" class="k">FRONTEND</text>
+  <text x="250" y="248" class="v">Next.js · React · Tailwind · Vite · Streamlit</text>
+</g>
+<line x1="40" y1="272" x2="1160" y2="272" stroke="#161B22"/>
+
+<g class="row r5">
+  <circle class="dot" cx="40" cy="304" r="3" fill="#FF6B35"><animate attributeName="opacity" values=".35;1;.35" dur="3s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <text x="62" y="308" class="k">ML</text>
+  <text x="250" y="308" class="v">PyTorch · TensorFlow · scikit-learn · XGBoost · YOLOv8 · OpenCV · SHAP</text>
+</g>
+<line x1="40" y1="332" x2="1160" y2="332" stroke="#161B22"/>
+
+<g class="row r6">
+  <circle class="dot" cx="40" cy="364" r="3" fill="#FF6B35"><animate attributeName="opacity" values=".35;1;.35" dur="3s" begin="2s" repeatCount="indefinite"/></circle>
+  <text x="62" y="368" class="k">INFRA</text>
+  <text x="250" y="368" class="v">Docker · Kubernetes · GitHub Actions · Vercel · AWS · Stripe · Twilio</text>
+</g>
 </svg>
