@@ -4,7 +4,14 @@
 
 Building **autonomous agent systems** that do real work and **prove it** — agents that verify their own output, refuse the action they cannot justify, and run under tests and CI like any other production code.
 
-Full-stack engineer since 2019. Now working end to end across the agent pipeline: **design → orchestration → guardrails → evaluation → deployment.**
+<p>
+  <img src="https://img.shields.io/badge/7%2B%20YEARS-BUILDING%20SOFTWARE-0A66C2?style=for-the-badge" alt="7+ years">
+  <img src="https://img.shields.io/badge/SINCE-2019-24292e?style=for-the-badge" alt="since 2019">
+  <img src="https://img.shields.io/badge/FOCUS-AI%20AGENTS-F55036?style=for-the-badge" alt="focus">
+  <img src="https://img.shields.io/badge/OPEN%20TO-REMOTE%20ROLES-2EA44F?style=for-the-badge" alt="open to work">
+</p>
+
+**Full-stack engineer since 2019 — seven years shipping production systems**, the last stretch spent entirely on agents. I work end to end across the pipeline: **design → orchestration → guardrails → evaluation → deployment.**
 
 <p>
   <a href="https://github.com/rafeyy-sxk/relic-ai"><img src="https://img.shields.io/badge/FLAGSHIP%20PROJECT-relic--ai-24292e?style=for-the-badge&logo=github&logoColor=white" alt="Relic"></a>
