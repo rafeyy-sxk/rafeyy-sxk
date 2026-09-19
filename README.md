@@ -5,7 +5,6 @@
 <br/>
 
 <a href="https://linkedin.com/in/abdul-rafeyy23"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
-<a href="https://instagram.com/rafeyy.sxk"><img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram"/></a>
 <a href="mailto:abdulrafeyy23@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
 <a href="https://github.com/rafeyy-sxk?tab=repositories"><img src="https://img.shields.io/badge/REPOS-181717?style=for-the-badge&logo=github&logoColor=white" alt="repos"/></a>
 <a href="https://pacelab-f1.vercel.app"><img src="https://img.shields.io/badge/PACELAB-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="pacelab"/></a>
@@ -13,7 +12,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=700&color=FF6B35&center=true&vCenter=true&width=820&lines=Agents+that+verify+their+own+work.;100+agents+in+parallel.+Zero+dropped.;If+it+cannot+prove+it%2C+it+does+not+ship.;Full-stack+engineer+since+2019." alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=700&color=FF6B35&center=true&vCenter=true&width=820&lines=Agents+that+verify+their+own+work.;70+agents+in+parallel.+Zero+dropped.;If+it+cannot+prove+it%2C+it+does+not+ship.;Production+AI+that+calls%2C+texts+and+bills." alt="typing"/>
 
 </div>
 
@@ -26,10 +25,35 @@
 Agents that verify what they output, refuse the action they cannot justify,<br/>and run under tests and CI like any other production code.
 
 <img src="https://img.shields.io/badge/632-TESTS%20GREEN-2EA043?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/100-AGENTS%20IN%20PARALLEL-FF6B35?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/70-AGENTS%20IN%20PARALLEL-FF6B35?style=flat-square&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/0-DROPPED-6C5CE7?style=flat-square&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/MYPY-STRICT-2A6DB2?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/SHIPPING%20SINCE-2019-0A66C2?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/SHIPPING%20SINCE-2022-0A66C2?style=flat-square&labelColor=0D1117"/>
+
+</div>
+
+---
+
+## 💼 Experience
+
+<div align="center">
+
+### Full Stack Agentic Software Developer — Orion AI Solutions (US, remote contract)
+**June 2026 — September 2026**
+
+Shipped and operated a live US SaaS platform where **AI agents call leads by voice**, automated **SMS and email** campaigns follow up, and **Stripe** bills the account.
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Redis%20%2B%20BullMQ-DC382D?style=flat-square&logo=redis&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white&labelColor=0D1117"/>
+
+Diagnosed production incidents against live PostgreSQL, Stripe, Twilio and voice-agent logs.<br/>
+Built the verification process the team shipped under: RED test first, a planted defect that must bite a named test, a query plan reviewed for scale, and an adversarial review of the diff before any PR opened.
 
 </div>
 
@@ -206,6 +230,5 @@ Real-time inspection APIs on FastAPI and Docker that cut manual inspection time 
 
 <a href="mailto:abdulrafeyy23@gmail.com"><img src="https://img.shields.io/badge/abdulrafeyy23@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/></a>
 <a href="https://linkedin.com/in/abdul-rafeyy23"><img src="https://img.shields.io/badge/connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/></a>
-<a href="https://instagram.com/rafeyy.sxk"><img src="https://img.shields.io/badge/@rafeyy.sxk-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117"/></a>
 
 </div>
