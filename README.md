@@ -156,9 +156,9 @@ Industrial defect detection in Python — preprocessing, detection, benchmarking
 *the system my own work runs under*
 
 <img src="https://img.shields.io/badge/70-AGENTS-6C5CE7?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/51-SKILLS-00B894?style=flat-square&labelColor=0D1117"/><br/>
+<img src="https://img.shields.io/badge/59-SKILLS-00B894?style=flat-square&labelColor=0D1117"/><br/>
 <img src="https://img.shields.io/badge/33-RULES-E17055?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/16-HOOKS-D63031?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/17-HOOKS-D63031?style=flat-square&labelColor=0D1117"/>
 
 A coordinating session allocates work to named agents on their own worktrees, a guard blocks destructive commands, and read-only auditors adversarially review every diff.
 
