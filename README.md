@@ -38,8 +38,8 @@ Agents that verify what they output, refuse the action they cannot justify,<br/>
 
 <div align="center">
 
-### Full Stack Agentic Software Developer — Orion AI Solutions (US, remote contract)
-**June 2026 — September 2026**
+### Full Stack &amp; Agentic AI Developer — Orion AI Solutions (US, remote contract)
+**April 2026 — Present**
 
 Shipped and operated a live US SaaS platform where **AI agents call leads by voice**, automated **SMS and email** campaigns follow up, and **Stripe** bills the account.
 
@@ -54,6 +54,21 @@ Shipped and operated a live US SaaS platform where **AI agents call leads by voi
 
 Diagnosed production incidents against live PostgreSQL, Stripe, Twilio and voice-agent logs.<br/>
 Built the verification process the team shipped under: RED test first, a planted defect that must bite a named test, a query plan reviewed for scale, and an adversarial review of the diff before any PR opened.
+
+<br/>
+
+### AI Backend Engineer — Faz Australia, MedTalk AI (remote, Canberra AU)
+**June 2025 — April 2026**
+
+Built the AI pipeline behind **MedTalk**, a clinical documentation platform deployed in **Australian hospitals**. A consultation is captured as audio, transcribed by a speech model, then passed through a language model that returns a **structured clinical note against a schema** rather than free text.
+
+<img src="https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Structured%20Output-6C5CE7?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Human%20in%20the%20Loop-2EA043?style=flat-square&labelColor=0D1117"/>
+
+Designed as a **human-in-the-loop** system: the model drafts, the clinician reviews and signs off, and nothing reaches the clinical record unapproved. Built the backend that runs it in production against the security and patient-data requirements of Australian hospital systems.
 
 </div>
 
