@@ -111,7 +111,7 @@ An MCP server in **Go**, zero dependencies, so the binary is one file an agent c
 
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/MCP-6C5CE7?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/28-tests-2EA043?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/29-tests-2EA043?style=flat-square&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/0-dependencies-FF6B35?style=flat-square&labelColor=0D1117"/>
 
 </td>
@@ -148,7 +148,7 @@ Point it at legacy Python and walk away. It writes a characterization suite for 
 ### 🔍 [Multi-Agent Research](https://github.com/rafeyy-sxk/multi-agent-research)
 **Answers that cannot be unsourced.**
 
-Four agents plan, fetch, extract and verify. The verifier must quote the source verbatim, and that quote is **checked against the document mechanically** — a fabricated quote cannot pass, however confident the model sounds.
+Four agents plan, extract, verify and write. The verifier must quote the source verbatim, and that quote is **checked against the document mechanically** — a fabricated quote cannot pass, however confident the model sounds.
 
 [![ci](https://github.com/rafeyy-sxk/multi-agent-research/actions/workflows/ci.yml/badge.svg)](https://github.com/rafeyy-sxk/multi-agent-research/actions/workflows/ci.yml)
 <img src="https://img.shields.io/badge/71-tests-2EA043?style=flat-square&labelColor=0D1117"/>
@@ -163,7 +163,7 @@ Four agents plan, fetch, extract and verify. The verifier must quote the source 
 ### ⚙️ [Fault Diagnosis Agent](https://github.com/rafeyy-sxk/xai-fault-diagnosis-agent)
 **An agent on real industrial data.**
 
-Isolation Forest anomaly detection over NASA CMAPSS turbofan sensors, with a LangGraph agent that explains *why* a reading is anomalous through SHAP attribution and estimates remaining useful life.
+Isolation Forest anomaly detection over NASA CMAPSS turbofan sensors, with a LangGraph agent that explains *why* a reading is anomalous through SHAP attribution and turns anomaly severity into a maintenance-urgency window.
 
 [![ci](https://github.com/rafeyy-sxk/xai-fault-diagnosis-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/rafeyy-sxk/xai-fault-diagnosis-agent/actions/workflows/ci.yml)
 <img src="https://img.shields.io/badge/45-tests-2EA043?style=flat-square&labelColor=0D1117"/>
@@ -198,11 +198,11 @@ Industrial defect detection in Python — preprocessing, detection, benchmarking
 *the system my own work runs under*
 
 <img src="https://img.shields.io/badge/155-AGENTS-6C5CE7?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/60-SKILLS-00B894?style=flat-square&labelColor=0D1117"/><br/>
+<img src="https://img.shields.io/badge/57-SKILLS-00B894?style=flat-square&labelColor=0D1117"/><br/>
 <img src="https://img.shields.io/badge/33-RULES-E17055?style=flat-square&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/18-HOOKS-D63031?style=flat-square&labelColor=0D1117"/>
 
-A coordinating session allocates work to named agents on their own worktrees, a guard hook blocks destructive commands, and read-only auditors adversarially review every diff. 89 commands, 6 MCP servers, 18 hooks across 7 lifecycle events.
+A coordinating session allocates work to named agents on their own worktrees, a guard hook blocks destructive commands, and read-only auditors adversarially review every diff. 89 commands, 6 MCP servers, 169 plugins audited for real inventory and token cost.
 
 </td>
 <td width="33%" valign="top" align="center">
@@ -210,12 +210,12 @@ A coordinating session allocates work to named agents on their own worktrees, a 
 ### 🏎 [PaceLab](https://pacelab-f1.vercel.app)
 *live F1 race strategy platform*
 
-<img src="https://img.shields.io/badge/61%2C332-LAPS-FF6B35?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/61K%2B-LAPS-FF6B35?style=flat-square&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/10K--RUN-MONTE%20CARLO-6C5CE7?style=flat-square&labelColor=0D1117"/><br/>
 <img src="https://img.shields.io/badge/XGBoost-337AB7?style=flat-square&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black&labelColor=0D1117"/>
 
-Sole developer. FastAPI and DuckDB on Oracle Cloud, React 19 on Vercel, weekly automated refresh.
+Sole developer. FastAPI and DuckDB on Oracle Cloud, React 19 on Vercel.
 
 </td>
 <td width="33%" valign="top" align="center">
