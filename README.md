@@ -39,7 +39,7 @@ Agents that verify what they output, refuse the action they cannot justify,<br/>
 <div align="center">
 
 ### Full Stack &amp; Agentic AI Developer — Orion AI Solutions (US, remote contract)
-**April 2026 — Present**
+**April 2026 — September 2026**
 
 Shipped and operated a live US SaaS platform where **AI agents call leads by voice**, automated **SMS and email** campaigns follow up, and **Stripe** bills the account.
 
@@ -57,8 +57,22 @@ Built the verification process the team shipped under: RED test first, a planted
 
 <br/>
 
+### AI Automation Engineer — Pylon AI (remote, Australia)
+**October 2025 — April 2026**
+
+Built AI automation for early-stage startups and small businesses across **operations, customer follow-up and reporting** — took the manual parts of how a business runs, worked out what could safely be handed to an agent, and delivered it as a working service rather than a prototype.
+
+<img src="https://img.shields.io/badge/Agents%20as%20a%20Service-6C5CE7?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Tool%20Use%20%2B%20Guardrails-2EA043?style=flat-square&labelColor=0D1117"/>
+
+Built the **product discovery system** behind an agentic dashboard that reads the whole of a customer business and reports it back in one view, so an owner sees the state of operations instead of assembling it by hand from separate tools.
+
+<br/>
+
 ### AI Backend Engineer — Faz Australia, MedTalk AI (remote, Canberra AU)
-**June 2025 — April 2026**
+**December 2024 — October 2025**
 
 Built the AI pipeline behind **MedTalk**, a clinical documentation platform deployed in **Australian hospitals**. A consultation is captured as audio, transcribed by a speech model, then passed through a language model that returns a **structured clinical note against a schema** rather than free text.
 
@@ -87,6 +101,34 @@ Designed as a **human-in-the-loop** system: the model drafts, the clinician revi
 ## 🚀 Work
 
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### 🪙 [ClaimScout](https://github.com/rafeyy-sxk/claimscout)
+**Money people are owed, with the reasoning attached.**
+
+An MCP server in **Go**, zero dependencies, so the binary is one file an agent can run. It reads the **87 live refund programmes** the FTC publishes, matches them against what a person actually bought, and returns each candidate with the evidence behind its score. It **surfaces candidates and never decides eligibility** — proof of purchase is flagged as unchecked on every single result.
+
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/MCP-6C5CE7?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/28-tests-2EA043?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/0-dependencies-FF6B35?style=flat-square&labelColor=0D1117"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧭 [Agent Router](https://github.com/rafeyy-sxk/agent-router)
+**A fine-tuned model that stops inventing agents.**
+
+Llama-3.2-1B with LoRA, trained on a laptop, routing a plain-English request to one of 155 agents. I built the dataset, the baselines and the eval **before** training — which is how I found out my first two datasets were worthless. Both failures are in the README.
+
+<img src="https://img.shields.io/badge/MLX-000000?style=flat-square&logo=apple&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/LoRA-6C5CE7?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/0%25%20%E2%86%92%2024.7%25-top--1-2EA043?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/93%2F93%20%E2%86%92%204%2F93-hallucinations-E17055?style=flat-square&labelColor=0D1117"/>
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -155,12 +197,12 @@ Industrial defect detection in Python — preprocessing, detection, benchmarking
 ### 🤖 Agent Harness
 *the system my own work runs under*
 
-<img src="https://img.shields.io/badge/70-AGENTS-6C5CE7?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/59-SKILLS-00B894?style=flat-square&labelColor=0D1117"/><br/>
+<img src="https://img.shields.io/badge/155-AGENTS-6C5CE7?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/60-SKILLS-00B894?style=flat-square&labelColor=0D1117"/><br/>
 <img src="https://img.shields.io/badge/33-RULES-E17055?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/17-HOOKS-D63031?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/18-HOOKS-D63031?style=flat-square&labelColor=0D1117"/>
 
-A coordinating session allocates work to named agents on their own worktrees, a guard blocks destructive commands, and read-only auditors adversarially review every diff.
+A coordinating session allocates work to named agents on their own worktrees, a guard hook blocks destructive commands, and read-only auditors adversarially review every diff. 89 commands, 6 MCP servers, 18 hooks across 7 lifecycle events.
 
 </td>
 <td width="33%" valign="top" align="center">
