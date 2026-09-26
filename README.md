@@ -194,20 +194,6 @@ Real-time inspection APIs on FastAPI and Docker that cut manual inspection time 
 
 ---
 
-## 🎓 Certifications
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Supervised%20Machine%20Learning-DeepLearning.AI-0A66C2?style=for-the-badge&logo=coursera&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Advanced%20Learning%20Algorithms-DeepLearning.AI-0A66C2?style=for-the-badge&logo=coursera&logoColor=white&labelColor=0D1117"/>
-<br/>
-<img src="https://img.shields.io/badge/Unsupervised%2C%20Recommenders%2C%20RL-DeepLearning.AI-0A66C2?style=for-the-badge&logo=coursera&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/LICENSED%20BY-STANFORD-8C1515?style=for-the-badge&labelColor=0D1117"/>
-
-</div>
-
----
-
 ## 📊 GitHub
 
 <div align="center">
